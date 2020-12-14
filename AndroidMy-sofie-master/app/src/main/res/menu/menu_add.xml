@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.vieira.miguel.appbasico.ui.AddActivity">
+
+    <item android:id="@+id/limpar"
+        android:icon="@drawable/baseline_clear_white_18dp"
+        android:title="@string/action_settings"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/salvar"
+        android:icon="@drawable/baseline_done_white_18dp"
+        android:title="@string/app_name"
+        app:showAsAction="always"/>
+
+
+</menu>
